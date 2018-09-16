@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,700i,800');
+
+header{
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+}
+body{
+    background-color: #f7f7f7;
+}
+#t1,#t2,#t3,#t4{
+    font-family: Lobster, sans-serif;
+    font-weight: 400;
+    font-size: 200%;
+    text-align: center;
+    color: dimgrey;
+    width: 100%;
+    margin: auto;
+}
+h1{
+    font-size: 4em;
+    font-family: Lobster, sans-serif;
+}
+h2{
+    font-family: Lobster, sans-serif;
+    padding-top: -15px;
+    margin-top: -40px;
+}
+.titulos{
+    width: 70%;
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+img{
+    width: 20%;
+}
+figure{
+    display: inline;
+}
+
+main{
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+    text-align: justify;
+    padding-left: 50px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: grey;
+}
+strong{
+    font-family: 'Open Sans:800', sans-serif;
+    font-size: 1em;
+    color: black;
+}
+em{
+    font-family: 'Open Sans:700i', sans-serif;
+    font-size: 1em;
+    color: #507297;
+}
+main p:first-of-type:first-letter{
+    font-family: Lobster, sans-serif;
+    font-size: 800%;
+    float: left;
+    padding-right: 15px;
+    margin-top: -30px;
+}
